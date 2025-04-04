@@ -93,7 +93,7 @@
                 <a href="https://github.com/kaankaramanofficial/GSR4B"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fa-solid fa-presentation-screen"></i>
+                      <i class="fab fa-github"></i>
                   </span>
                   <span>Code</span>
                   </a>
@@ -202,19 +202,34 @@
         </div>
         <div class="content has-text-justified">
           <p>
-            lorem ipsum.
+            We compare several biomass estimation approaches to produce
+            high-resolution biomass maps.
+            Guided Super-Resolution (GSR) upsample an input low resolution
+            biomass map using higher resolution satellite imagery as guidance.
+            Super-Resolution (SR) take biomass map and upscale it to a higher
+            resolution.
+            Biomass Estimation (BE) directly regress biomass from a
+            satellite imagery as input.
+          </p>
+          <p>
+            Our results indicate that learning-based GSR approaches taken from
+            the depth estimation literature perform best. Interestingly, we
+            observe that <i>texture copying</i>, which hurtful for depth
+            estimation from natural images, is beneficial in the resolution at
+            which our present biomass upsampling setting is formulated.
           </p>
         </div>
         <!--/ quantitative. -->
 
         <!-- qualitative. -->
-        <h2 class="title is-3">Quantitative results</h2>
+        <h2 class="title is-3">Qualitative results</h2>
         <div class="columns is-centered">
           <img src="./static/images/gsr_qualitative.png" alt="GSRB qualitative results" width="70%"/>
         </div>
         <div class="content has-text-justified">
           <p>
-            lorem ipsum.
+            Learning-based GSR methods better reconstruct capture high frequency
+            patterns with the help of the satellite guide image.
           </p>
         </div>
         <!--/ qualitative. -->
@@ -226,7 +241,10 @@
         </div>
         <div class="content has-text-justified">
           <p>
-            lorem ipsum.
+            Common to all canopy height and biomass estimation methods in the
+            literature, all methods tend to overestimate low-biomass values and
+            underestimate high values. However, we observe that GSR methods tend
+            to mitigate this behavior throughout the distribution of errors.
           </p>
         </div>
         <!--/ qualitative. -->

@@ -5,7 +5,9 @@
 Official implementation for
 <br>
 <br>
-[_GSR4B: Biomass Map Super-Resolution with Sentinel-1/2 Guidance_](https://arxiv.org/abs/2504.01722) (ISPRS Geospatial Week 2025, Oral)
+[_GSR4B: Biomass Map Super-Resolution with Sentinel-1/2 Guidance_](https://arxiv.org/abs/2504.01722)
+<br>
+(ISPRS Geospatial Week 2025, Oral)
 <br>
 [![arXiv](https://img.shields.io/badge/arxiv-2504.01722-b31b1b.svg)](https://arxiv.org/abs/2504.01722)
 [![Project page](https://img.shields.io/badge/Project_page-8A2BE2)](https://ecovision-uzh.github.io/GSR4B)

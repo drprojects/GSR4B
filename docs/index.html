@@ -251,36 +251,60 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-          Accurate Above-Ground Biomass (AGB) mapping at both large scale and high spatio-temporal resolution is essential for applications ranging from climate modeling to biodiversity assessment, and sustainable supply chain monitoring.
-          At present, fine-grained AGB mapping relies on costly airborne laser scanning acquisition campaigns usually limited to regional scales.
-          Initiatives such as the ESA CCI map attempt to generate global biomass products from diverse spaceborne sensors but at a coarser resolution.
-          To enable global, high-resolution (HR) mapping, several works propose to regress AGB from HR satellite observations such as ESA Sentinel-1/2 images.
-          We propose a novel way to address HR AGB estimation, by leveraging both HR satellite observations and existing low-resolution (LR) biomass products.
-          We cast this problem as Guided Super-Resolution (GSR), aiming at upsampling LR biomass maps (sources) from $100$ to $10$ m resolution, using auxiliary HR co-registered satellite images (guides).
-          We compare super-resolving AGB maps with and without guidance, against direct regression from satellite images, on the public BioMassters dataset.
-          We observe that Multi-Scale Guidance (MSG) outperforms direct regression both for regression ($-780$ t/ha RMSE) and perception ($+2.0$ dB PSNR) metrics, and better captures high-biomass values, without significant computational overhead.
-          Interestingly, unlike the RGB+Depth setting they were originally designed for, our best-performing AGB GSR approaches are those that most preserve the guide image texture.
-          Our results make a strong case for adopting the GSR framework for accurate HR biomass mapping at scale.
+            Accurate Above-Ground Biomass (AGB) mapping at both large scale and
+            high spatio-temporal resolution is essential for applications
+            ranging from climate modeling to biodiversity assessment, and
+            sustainable supply chain monitoring.
           </p>
           <p>
-          Our code and model weights are made publicly available: <a href="https://github.com/kaankaramanofficial/GSR4B">github.com/kaankaramanofficial/GSR4B</a>.
+            At present, fine-grained AGB mapping relies on costly airborne laser
+            scanning acquisition campaigns usually limited to regional scales.
+            Initiatives such as the ESA CCI map attempt to generate global
+            biomass products from diverse spaceborne sensors but at a coarser
+            resolution.To enable global, high-resolution (HR) mapping, several
+            works propose to regress AGB from HR satellite observations such as
+            ESA Sentinel-1/2 images.
+          </p>
+          <p>
+            We propose a novel way to address HR AGB estimation, by leveraging
+            both HR satellite observations and existing low-resolution (LR)
+            biomass products. We cast this problem as Guided Super-Resolution
+            (GSR), aiming at upsampling LR biomass maps (sources) from 100 to
+            10 m resolution, using auxiliary HR co-registered satellite images
+            (guides).
+          </p>
+          <p>
+            We compare super-resolving AGB maps with and without guidance,
+            against direct regression from satellite images, on the public
+            BioMassters dataset. We observe that Multi-Scale Guidance (MSG)
+            outperforms direct regression both for regression (-780 t/ha RMSE)
+            and perception (+2.0 dB PSNR) metrics, and better captures
+            high-biomass values, without significant computational overhead.
+            Interestingly, unlike the RGB+Depth setting they were originally
+            designed for, our best-performing AGB GSR approaches are those that
+            most preserve the guide image texture. Our results make a strong
+            case for adopting the GSR framework for accurate HR biomass mapping
+            at scale.
+          </p>
+          <p>
+            Our code and model weights are made publicly available: <a href="https://github.com/kaankaramanofficial/GSR4B">github.com/kaankaramanofficial/GSR4B</a>.
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
+<!--    &lt;!&ndash; Paper video. &ndash;&gt;-->
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-four-fifths">-->
+<!--        <h2 class="title is-3">Video</h2>-->
+<!--        <div class="publication-video">-->
+<!--          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"-->
+<!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;/ Paper video. &ndash;&gt;-->
   </div>
 </section>
 

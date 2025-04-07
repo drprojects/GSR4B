@@ -204,19 +204,20 @@
           <p>
             We compare several biomass estimation approaches to produce
             high-resolution biomass maps.
-            Guided Super-Resolution (GSR) upsample an input low resolution
+            Guided Super-Resolution (GSR) upsamples an input low resolution
             biomass map using higher resolution satellite imagery as guidance.
-            Super-Resolution (SR) take biomass map and upscale it to a higher
+            Super-Resolution (SR) takes biomass map and upscale it to a higher
             resolution.
-            Biomass Estimation (BE) directly regress biomass from a
+            Biomass Estimation (BE) directly regresses biomass from a
             satellite imagery as input.
           </p>
           <p>
             Our results indicate that learning-based GSR approaches taken from
             the depth estimation literature perform best. Interestingly, we
-            observe that <i>texture copying</i>, which hurtful for depth
-            estimation from natural images, is beneficial in the resolution at
-            which our present biomass upsampling setting is formulated.
+            observe that <i>texture copying</i>, which is hurtful for depth
+            estimation from natural images, is actually beneficial at the
+            resolution at which our present biomass upsampling setting is
+            formulated.
           </p>
         </div>
         <!--/ quantitative. -->
@@ -241,10 +242,10 @@
         </div>
         <div class="content has-text-justified">
           <p>
-            Common to all canopy height and biomass estimation methods in the
-            literature, all methods tend to overestimate low-biomass values and
-            underestimate high values. However, we observe that GSR methods tend
-            to mitigate this behavior throughout the distribution of errors.
+            A common issue for canopy height and biomass estimation works in the
+            literature, is that methods tend to overestimate low-biomass values
+            and underestimate high values. However, we observe that GSR methods
+            mitigate this behavior throughout the distribution of errors.
           </p>
         </div>
         <!--/ qualitative. -->
